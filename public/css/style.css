@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+}
+
+
+table {
+  width: 950px;
+  table-layout: fixed;
+}
+
+table th {
+  padding: 15px 0;
+  border-right: 1px solid #bbb;
+  text-align: center;
+}
+
+table tr {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom: 1px solid #bbb;
+}
+
+table tr:last-child{
+   border-bottom: none
+}
+
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 1px solid #bbb;
+  text-align: center;
+}
+
+table th:last-child,
+table td:last-child{
+  border: none;
+}
+
+.btn_create {
+  margin:20px 0;    
+}
